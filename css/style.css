@@ -1,15 +1,22 @@
 /*font-family: 'Roboto', sans-serif;*/
 html {
     background-color: black;
-    margin-left: 25px;
-    margin-right: 25px;
+   /* margin-left: 25px;
+    margin-right: 25px;*/
+}
+body {
+    margin: 0 auto;
+    background-color: none;
+}
+.BHClogo {
+    padding-left: 20px;
 }
 /* Add a black background color to the top navigation */
 .primarynav {
     background-color: #4D4D4D;
     overflow: hidden;
-    margin-left: 25px;
-    margin-right: 25px;
+   /* margin-left: 25px;
+    margin-right: 25px;*/
   }
 /* Style the links inside the navigation bar */
 .primarynav a {
@@ -27,6 +34,10 @@ html {
     background-color: #ddd;
     color: black;
 }
+.primarynav .news:hover {
+    background-color: #ddd;
+    color: black; 
+}
   
 /* Add a color to the active/current link */
 .primarynav a.active {
@@ -34,11 +45,7 @@ html {
     color: black;
 }
 .HomeHero {
- margin-right: 25px;
- margin-left: 25px;
- border-right: 25px;
- border-left: 25px;
- width: fit-content;
+    width: 100vw;
 }
 .alertMessage {
     background-color: #4D4D4D;
@@ -49,6 +56,4 @@ html {
     font-size: 20px;
     text-align: center;
     line-height: 35px;
-    margin-right: 25px;
-    margin-left: 25px;
 }
