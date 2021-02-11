@@ -1,8 +1,6 @@
 /*font-family: 'Roboto', sans-serif;*/
 html {
     background-color: black;
-   /* margin-left: 25px;
-    margin-right: 25px;*/
 }
 body {
     margin: 0 auto;
@@ -15,20 +13,24 @@ body {
 .primarynav {
     background-color: #4D4D4D;
     overflow: hidden;
-   /* margin-left: 25px;
-    margin-right: 25px;*/
+    height: fit-content;
   }
 /* Style the links inside the navigation bar */
 .primarynav a {
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
-    margin-top: 50px;
     float: right;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 20px;
  }
-  
+ .navTags {
+    margin-top: 75px;
+ }
+ .primarynav .logo {
+    float: left;
+    margin-top: -1px;
+ }
 /* Change the color of links on hover */
 .primarynav a:hover {
     background-color: #ddd;
