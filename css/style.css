@@ -30,6 +30,7 @@ body {
  .primarynav .logo {
     float: left;
     margin-top: -1px;
+    padding-left: 20px;
  }
 /* Change the color of links on hover */
 .primarynav a:hover {
