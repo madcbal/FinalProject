@@ -9,34 +9,41 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 </head>
-<header>
-    <div class="primarynav">
-        <div class="col">
-            <a class="navTags" href="pages/contact.html">Contact Us</a>
-            <a class="navTags" href="#news">News & Resources</a>
-            <a class="navTags" href="#supporters">Our Supporters</a>
-            <a class="navTags" href="pages/join.html">Join</a>
-            <a class="navTags" href="pages/donate.html">Donate</a>
-            <a class="navTags" href="#about">About</a>
-        </div>
-        <div class="col logo">
-            <a href="../index.html">
-                <img class="bhcLogo" src="images/Blue Heart Campaign Logo.png">
-            </a>
-        </div>
-    </div>
-</header>
+
 
 <body>
-    <img class="HomeHero" src="images/HeroImgHome.png">
+    <header>
+        <div class="primarynav">
+            <div class="col">
+                <a class="navTags" href="pages/contact.html">Contact Us</a>
+                <a class="navTags" href="#news">News & Resources</a>
+                <a class="navTags" href="#supporters">Our Supporters</a>
+                <a class="navTags" href="pages/join.html">Join</a>
+                <a class="navTags" href="pages/donate.html">Donate</a>
+                <a class="navTags" href="#about">About</a>
+            </div>
+            <div class="col logo">
+                <a href="../index.html">
+                    <img class="bhcLogo" src="images/Blue Heart Campaign Logo.png">
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <img class="HomeHero img-fluid" src="images/HomePgHero.png">
     <div class="alertMessage">World Day Against Human Trafficking July 30th</div>
 
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item active" aria-current="page">Home</li>
+        </ol>
+    </nav>
 
     <div class="container">
-        <div class="row row-cols-2">
+        <div class="row">
             <div class="col">
                 <h5 class="infoHead">What is the Blue Heart Campaign?</h5>
-                <p style="color: white;">Human trafficking is a heartless crime that involves the buying and selling of fellow humans for
+                <p style="color: white">Human trafficking is a heartless crime that involves the buying and selling of fellow humans for
                     forced marriage, begging, and labour, sexual exploitation, organ removal, selling children, and or
                     child soldiers.The Blue Heart campaign is a global organization that strives to raise awareness of
                     the plight of human trafficking victims, to inspire action to combat it, and to build political
@@ -44,14 +51,62 @@
                 </p>
             </div>
             <div class="col">
-                <div style="background-color: #4D4D4D;">
-                    <p style="color: white; background-color: #4D4D4D;">You can show your support for the Blue Heart Campaign by donating funds or making in-kind
-                    contributions to the UN Voluntary Trust Fund for Victims of Human Trafficking.
+                <div id="callOut">
+                    <h4>Show Your Support!</h4>
+                    <p id="pTagWords">You can show your support for the Blue Heart Campaign by donating funds or making
+                        in-kind
+                        contributions to the UN Voluntary Trust Fund for Victims of Human&nbsp;Trafficking.
                     </p>
-                    <button type="button" class="btn" style="color: white; background-color: #00A7E1;">Donate Now</button>
+                    <div class="alignEndC">
+                        <button type="button" class="btn btn-primary">Donate Now</button>
+                    </div>
                 </div>
             </div>
         </div>
+    <div class="card mb-3" id="featuredSurvivor">
+        <div class="container"></div>
+            <div class="row g-0">
+                <div class="col-md-6">
+                    <img class="img-fluid alberto" src="images/SurvivorImg.png" alt="Featured Survivor Alberto Diaz">
+                </div>
+                <div class="col-md-6">
+                    <div class="card-body">
+                        <h6 style="color: #00A7E1">SURVIVOR STORY</h6>
+                        <h4 class="card-title">Alberto Diaz</h4>
+                        <p class="card-text">Alberto Diaz breaks 20 years of silence to share what it was like to be a male
+                        victim of human trafficking among many others in his home country.</p>
+                        <button type="button" class="btn btn-primary">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="infoImgContainer">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5">
+          <div class="col-sm">
+            <img class="img-fluid" src="images/info1.png">
+          </div>
+          <div class="col-sm" style="text-align: center;">
+            <img class="img-fluid centerimg" src="images/info2.png">
+          </div>
+          <div class="col-sm" style="text-align: center;">
+            <img class="img-fluid centerimg" src="images/info3.png">
+          </div>
+          <div class="col-sm" style="text-align: center;">
+            <img class="img-fluid centerimg" src="images/info4.png">
+          </div>
+          <div class="col-sm">
+            <img class="img-fluid bottomimg" src="images/info5.png">
+          </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-sm-1 row-cols-md-2">
+          <div class="col heartimg">
+            <img class="img-fluid" src="images/Mask Group.png">
+          </div>
+          <div class="col concertimg">
+            <img class="img-fluid concertimg" src="images/UNODCpic.png">
+          </div>
     </div>
 </body>
 

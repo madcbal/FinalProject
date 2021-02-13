@@ -3,9 +3,13 @@ html {
     background-color: black;
 }
 body {
-    margin: 0 auto;
-    background-color: none;
+    background-color: black;
 }
+
+h4 {
+    color: black;
+}
+
 /*.bhcLogo {
     padding-left: 20px;
 }*/
@@ -48,9 +52,6 @@ body {
     color: black;
 }
 
-body { 
-    background-color: black;
-}
 
 .HomeHero {
     width: 100vw;
@@ -65,12 +66,17 @@ body {
     text-align: center;
     line-height: 35px;
 }
+.breadcrumb {
+    margin-left: 20px;
+    margin-top: 10px;
+}
 .container {
     margin-top: 15px;
+
 }
 .infoHead {
     color: white;
-    text-align: center;
+    text-align: left;
 }
 .row .p {
     font-size: small;
@@ -78,3 +84,50 @@ body {
     color: #fff;
 }
 
+#callOut {
+    background-color: white;
+    color: white;
+    padding: 10px 20px 10px;
+}
+#pTagWords {
+    color: black;
+    font-weight: bold;
+    font-size: large;
+}
+
+.btn-primary {
+    background-color: #00A7E1 !important;
+}
+
+.alignEndC { text-align: right; } 
+
+#featuredSurvivor {
+    margin-top: 50px;
+}
+
+#infoImgContainer: {
+    align-items: center;
+    margin-top: 25px;
+}
+
+.centerimg {
+   padding: 0px !important;
+
+}
+
+.col-sm {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.bottomimg {
+    float: right;
+}
+
+.heartimg {
+    padding-left: 0px;
+}
+.concertimg {
+    float: right;
+    padding-right: 0px;
+}
